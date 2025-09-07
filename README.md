@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Deep Research Agent System  
 
 An intelligent multi-agent research framework inspired by **OpenAI Deep Research**.  
@@ -61,10 +62,76 @@ This system breaks down complex questions, runs parallel research across multipl
 SEARCH_API_KEY=<your_search_api_key>
 OPENAI_API_KEY=<your_openai_api_key>
 TAVILY_API_KEY=<optional_if_using_tavily>
+=======
+
+# 🔎 Deep Research Agent System
+
+This project is a **multi-agent research assistant** built with Streamlit and OpenAI’s Agent SDK.  
+It plans research tasks, gathers information from multiple agents, synthesizes findings, and generates a structured report.
+
+---
+
+## 🚀 Features
+- **Planning Agent** → Breaks down complex queries into smaller tasks.
+- **Research Agents** → Run in parallel to gather information from diverse sources.
+- **Synthesis Agent** → Combines results, highlights conflicts, and provides structured insights.
+- **Report Writer** → Generates a polished report with citations.
+- **Quality Checks** → Flags credible (.gov, .edu, WHO, etc.) vs. unverified sources.
+- **Conflict Detection** → Identifies contradictory results between agents.
+- **Streamlit UI** → User-friendly interface with trace logs for developers.
+
+---
+
+## 📂 Project Structure
+```
+deep_research_agent/
+│── planning_agent.py
+│── research_agents.py
+│── synthesis_agent.py
+│── report_writer.py
+│── agents.py
+│── deep_research_system.py   # Main Streamlit app
+│── README.md
 ```
 
 ---
 
+## 🛠️ Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/deep_research_agent.git
+   cd deep_research_agent
+   ```
+
+2. Create a virtual environment and install dependencies:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+3. Set up environment variables in `.env`:
+   ```env
+   OPENAI_API_KEY=your_openai_api_key
+   ```
+
+---
+
+## ▶️ Usage
+
+Run the Streamlit app:
+```bash
+streamlit run deep_research_system.py
+>>>>>>> ee2c019 (Updated README, agents, and config files)
+```
+
+Enter your research query in the text box and press **Run Research**.  
+You’ll get a structured **Final Research Report** along with optional **trace logs**.
+
+---
+
+<<<<<<< HEAD
 ## 🛠️ Setup & Requirements  
 
 1. Install **Python 3.10+**  
@@ -84,13 +151,33 @@ TAVILY_API_KEY=<optional_if_using_tavily>
 ```bash
 python deep_research_system.py
 ```  
+=======
+## 📌 Example Queries
+- *"What are the health impacts of microplastics?"*
+- *"Compare renewable energy adoption in the US vs Europe."*
+- *"Summarize the effects of AI in education with credible sources."*
+
+---
+
+## ⚠️ Notes
+- This version **does not use persistent memory (Mem0)**.  
+- Each session starts fresh, with no stored context from past runs.
+
+---
+
+## 📜 License
+MIT License – free to use and modify.
+>>>>>>> ee2c019 (Updated README, agents, and config files)
 
 - The console shows each agent’s live progress (tracing).  
 - The final report is streamed directly in real time.  
 
+<<<<<<< HEAD
 ---
 
 ## 🌟 Advanced Features  
+=======
+>>>>>>> ee2c019 (Updated README, agents, and config files)
 
 - **Conflict Resolution:** Contradictions flagged during synthesis  
 - **Creative Strategies:** Agents adapt dynamically to queries  
@@ -106,6 +193,7 @@ python deep_research_system.py
 
 ## 📂 Project Structure  
 
+<<<<<<< HEAD
 ```
 deep_research_system/
 │
@@ -118,3 +206,6 @@ deep_research_system/
 ├── README.md                     # Project documentation
 └── requirements.txt              # Optional pip dependencies
 ```
+=======
+
+
