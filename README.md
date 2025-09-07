@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🌐 Deep Research Agent System  
 
 An intelligent multi-agent research framework inspired by **OpenAI Deep Research**.  
@@ -131,7 +131,6 @@ You’ll get a structured **Final Research Report** along with optional **trace 
 
 ---
 
-<<<<<<< HEAD
 ## 🛠️ Setup & Requirements  
 
 1. Install **Python 3.10+**  
@@ -172,7 +171,7 @@ MIT License – free to use and modify.
 - The console shows each agent’s live progress (tracing).  
 - The final report is streamed directly in real time.  
 
-<<<<<<< HEAD
+
 ---
 
 ## 🌟 Advanced Features  
@@ -193,7 +192,7 @@ MIT License – free to use and modify.
 
 ## 📂 Project Structure  
 
-<<<<<<< HEAD
+
 ```
 deep_research_system/
 │
